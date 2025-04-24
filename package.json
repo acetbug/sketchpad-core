@@ -1,0 +1,37 @@
+{
+  "name": "sketchpad-core",
+  "version": "1.0.0",
+  "description": "The core component for Sketchpad.",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acetbug/sketchpad-core.git"
+  },
+  "keywords": [
+    "sketchpad"
+  ],
+  "author": "acetbug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acetbug/sketchpad-core/issues"
+  },
+  "homepage": "https://github.com/acetbug/sketchpad-core#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@eslint/json": "^0.12.0",
+    "@eslint/markdown": "^6.4.0",
+    "eslint": "^9.25.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.30.1"
+  }
+}
